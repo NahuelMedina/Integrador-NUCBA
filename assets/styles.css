@@ -137,7 +137,7 @@ html {
 .nav__ul a:hover,
 .nav__ul-2 a:hover {
   color: var(--white);
-  text-shadow: 2px 2px 2px var(--black);
+  text-shadow: 1px 1px 1px var(--black);
   transition: all 0.5s ease;
 }
 
@@ -413,7 +413,8 @@ footer {
 }
 
 .footer__div-container ul a:hover {
-  color: var(--black);
+  color: var(--white);
+  text-shadow: 1px 1px 1px var(--black);
   transition: all 0.5s ease;
 }
 
@@ -435,7 +436,7 @@ footer {
 
 .footer__div-container input:focus,
 .footer__div-container input:hover {
-  border: 3px solid var(--gray-b3);
+  border: 2px solid var(--gray-b3);
 }
 
 .button__footer {
