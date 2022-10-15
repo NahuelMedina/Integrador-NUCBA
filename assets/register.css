@@ -1,0 +1,82 @@
+.register__container {
+  width: 1200px;
+  max-width: 90%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(https://img.freepik.com/free-photo/pink-brush-texture_95678-138.jpg?w=2000);
+  background-size: cover;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.register__container__div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  min-width: 50%;
+  min-height: 85%;
+  background: url(https://img.freepik.com/premium-photo/pink-watercolor-background-painting-with-abstract-fringe-bleed-paint-drips-drops_47006-687.jpg?w=2000);
+  background-size: cover;
+  box-shadow: 1px 1px 10px var(--black);
+  border-radius: 10px;
+}
+
+.register__container__div span {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.form__register {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  color: var(--black);
+  font-weight: 500;
+}
+
+.form__register input {
+  width: 370px;
+  height: 30px;
+  padding-left: 10px;
+  border: 0;
+  border-bottom: 1px solid var(--black);
+  outline: none;
+  background-color: transparent;
+  font-size: 17px;
+}
+
+.form__register button {
+  width: 370px;
+  height: 30px;
+  background-color: var(--black);
+  color: var(--white);
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+}
+
+.form__register button:hover {
+  background-color: var(--pink);
+  color: var(--black);
+  border: 1px solid var(--black);
+  transition: all 0.5s ease;
+}
+
+.register__container__div a {
+  color: var(--black);
+  border-bottom: 1px solid var(--black);
+  position: relative;
+}
+
+.register__container__div a:hover {
+  color: var(--gray-ef);
+  text-shadow: 1px 0px 1px var(--black);
+  transition: all 0.5s ease;
+}

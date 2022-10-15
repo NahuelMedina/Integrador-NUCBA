@@ -1,0 +1,337 @@
+@media (max-width: 1266px) {
+  .hero__button {
+    top: 90%;
+  }
+
+  .cards__container {
+    justify-content: center;
+    gap: 50px;
+  }
+}
+
+@media (max-width: 992px) {
+  .nav__div1 input {
+    display: none;
+  }
+
+  .nav__div1 img {
+    display: none;
+  }
+
+  .nav__ul {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 0;
+    width: 100%;
+    height: calc(100vh - 180px);
+    position: absolute;
+    top: 180px;
+    left: 0;
+    background-color: var(--white);
+    transform: translateX(200%);
+    transition: all 0.1s ease-in-out;
+    gap: 60px;
+    border-radius: 10px;
+    background: linear-gradient(to top, var(--pink), var(--white));
+    z-index: 1;
+  }
+
+  #toggle-menu:checked ~ .nav__ul {
+    transform: translateX(0);
+    transition: all 0.5s ease-in;
+  }
+
+  .nav__div2 {
+    font-size: 20px;
+  }
+
+  .nav__ul-2 img {
+    width: 30px;
+  }
+
+  .nav {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .nav__div2 img {
+    display: block;
+    position: absolute;
+    width: 30px;
+    right: 40px;
+    top: 135px;
+  }
+
+  .hero__button {
+    top: 90%;
+  }
+
+  .about-us__text h3 {
+    margin-top: 50px;
+    font-size: 20px;
+  }
+
+  .cards__container {
+    gap: 30px;
+    justify-content: center;
+  }
+
+  #cards h3 {
+    font-size: 20px;
+  }
+
+  .cards__text-black {
+    font-size: 17px;
+  }
+
+  .cards__text {
+    font-size: 15px;
+  }
+
+  #siguenos__instagram h3 {
+    font-size: 20px;
+  }
+
+  .ig__imgs {
+    gap: 10px;
+  }
+
+  .ig__imgs img {
+    height: 300px;
+    width: 300px;
+  }
+
+  .footer__div-container {
+    margin-bottom: 50px;
+    margin-top: 30px;
+  }
+
+  /* LOGIN */
+
+  .entrar {
+    width: 70%;
+    height: 85%;
+  }
+
+  /* REGISTER */
+
+  .register__container__div {
+    width: 450px;
+  }
+
+  .register__container__div a {
+    margin-bottom: 20px;
+  }
+
+  /* CONTACTOS */
+
+  .contacto__info2 {
+    flex-direction: column-reverse;
+  }
+
+  .contacto__info2 iframe {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 649px) {
+}
+
+@media (max-width: 575px) {
+  .nav__div2 img {
+    right: 38px;
+  }
+
+  .hero__button {
+    top: 90%;
+  }
+
+  .about-us__text h3 {
+    padding-top: 50px;
+    font-size: 18px;
+  }
+
+  .about-us__text p {
+    max-width: 100%;
+    font-size: 17px;
+  }
+
+  .about-us__div-img {
+    display: none;
+  }
+
+  .ig__imgs a:nth-child(3),
+  .ig__imgs a:nth-child(2) {
+    display: none;
+  }
+
+  .footer__div-container div:nth-child(3) {
+    order: 1;
+  }
+
+  /* LOGIN */
+
+  .login__container {
+    border-radius: 10px;
+  }
+
+  .entrar {
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .form-login {
+    color: var(--black);
+    font-weight: 400;
+    width: 300px;
+  }
+
+  .form-login input {
+    background: transparent;
+    border: 1px solid var(--black);
+    width: 300px;
+  }
+
+  .form-login input:focus {
+    border-color: var(--black);
+  }
+
+  .form-login button {
+    width: 300px;
+  }
+
+  .form-login button:hover {
+    background-color: var(--gray-333);
+  }
+
+  .end__login a {
+    color: var(--black);
+  }
+
+  /* REGISTER */
+
+  .register__container__div {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+  }
+}
+
+@media (max-width: 425px) {
+  .nav__div2 img {
+    right: 26px;
+  }
+
+  .about-us__text {
+    max-width: 100%;
+  }
+
+  .about-us__div-img {
+    display: none;
+  }
+
+  .hero img {
+    display: none;
+  }
+
+  #hero__container {
+    background: url(https://i.pinimg.com/736x/f4/af/01/f4af01bf5cd9fee0761bfc1c3edf31fc--iphone-backgrounds-phone-wallpapers.jpg);
+    background-size: cover;
+  }
+
+  /* CONTACTOS */
+
+  .contacto__info {
+    flex-direction: column;
+  }
+
+  .contacto__info__div1,
+  .contacto__info__div2,
+  .contacto__info__div3 {
+    width: 100%;
+  }
+
+  /* REGISTER */
+
+  .register__container__div input {
+    width: 250px;
+  }
+
+  .form__register {
+    width: 250px;
+    gap: 2px;
+  }
+
+  .register__container__div button {
+    width: 250px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 385px) {
+  .nav__div2 img {
+    right: 20px;
+  }
+
+  .hero span {
+    font-size: 3rem;
+  }
+
+  .cards__container__div1,
+  .cards__container__div2,
+  .cards__container__div3 {
+    width: 100%;
+    height: 50%;
+  }
+
+  #cards img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .footer__div-container {
+    margin-bottom: 150px;
+  }
+
+  .final__mesaje {
+    height: 80px;
+  }
+
+  /* LOGIN */
+
+  .form-login {
+    width: 250px;
+  }
+
+  .form-login input {
+    width: 250px;
+  }
+
+  .login__with {
+    width: 300px;
+  }
+
+  .form-login button {
+    width: 250px;
+  }
+
+  /* CONTACTOS */
+
+  .contacto__info2 form {
+    width: 250px;
+  }
+
+  .contacto__info2 form input {
+    width: 250px;
+  }
+
+  .text-area {
+    width: 250px;
+  }
+
+  .contacto__info2 form button {
+    width: 250px;
+  }
+}

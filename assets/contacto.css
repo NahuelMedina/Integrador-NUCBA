@@ -1,0 +1,120 @@
+#contacto {
+  width: 1200px;
+  max-width: 90%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  background: url(https://img.freepik.com/free-photo/pink-brush-texture_95678-138.jpg?w=2000);
+  background-size: cover;
+}
+
+#contacto h3 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.contacto__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  color: var(--black);
+  gap: 20px;
+  font-weight: 400;
+}
+
+.contacto__info span {
+  color: var(--black);
+  font-weight: 500;
+  font-size: 17px;
+  letter-spacing: 2px;
+}
+
+.contacto__info li {
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.contacto__info__div1,
+.contacto__info__div2,
+.contacto__info__div3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 30%;
+  gap: 30px;
+}
+
+.contacto__info2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 100px;
+}
+
+.contacto__info2 iframe {
+  width: 390px;
+  height: 380px;
+}
+
+.contacto__info2 form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  font-weight: 400;
+  color: var(--black);
+  font-weight: 500;
+}
+
+.contacto__info2 form input {
+  width: 370px;
+  height: 30px;
+  padding-left: 10px;
+  border: 1px solid var(--black);
+  outline: none;
+  background-color: transparent;
+  font-size: 17px;
+}
+
+.contacto__info2 form input:hover,
+.text-area:hover,
+.contacto__info2 form input:focus,
+.text-area:focus {
+  border: 2px solid var(--black);
+}
+
+.text-area {
+  width: 370px;
+  height: 100px;
+  padding-top: 10px;
+  padding-left: 10px;
+  border: 1px solid var(--black);
+  outline: none;
+  resize: none;
+  background-color: transparent;
+  font-size: 17px;
+}
+
+.contacto__info2 form button {
+  width: 370px;
+  height: 35px;
+  background-color: var(--black);
+  color: var(--white);
+  font-size: 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+.contacto__info2 form button:hover {
+  background-color: var(--pink);
+  color: var(--black);
+  border: 1px solid var(--black);
+  outline: none;
+  transition: all 0.5s ease;
+}

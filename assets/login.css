@@ -1,0 +1,135 @@
+.login__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 1200px;
+  max-width: 90%;
+  height: 100vh;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: url(https://img.freepik.com/free-photo/pink-brush-texture_95678-138.jpg?w=2000);
+  background-size: cover;
+}
+
+.entrar span {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.entrar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(https://img.freepik.com/premium-photo/pink-watercolor-background-painting-with-abstract-fringe-bleed-paint-drips-drops_47006-687.jpg?w=2000);
+  background-size: cover;
+  background-position: center;
+  gap: 30px;
+  width: 700px;
+  box-shadow: 1px 1px 10px var(--black);
+  border-radius: 10px;
+  height: 550px;
+}
+
+.form-login {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  color: var(--black);
+  font-weight: 500;
+}
+
+.form-login input {
+  width: 370px;
+  height: 30px;
+  padding-left: 10px;
+  border: none;
+  border-bottom: 1px solid var(--black);
+  outline: none;
+  background-color: transparent;
+  font-size: 17px;
+}
+
+.form-login button {
+  width: 370px;
+  height: 30px;
+  background-color: var(--black);
+  margin-top: 20px;
+  color: var(--white);
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+}
+
+.form-login button:hover {
+  background-color: var(--pink);
+  color: var(--black);
+  box-shadow: none;
+  border: 1px solid var(--black);
+  transition: all 0.5s ease;
+}
+
+.login__with {
+  width: 370px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.login__with__link1 img,
+.login__with__link2 img,
+.login__with__link3 img {
+  width: 20px;
+}
+
+.login__with__link1,
+.login__with__link2,
+.login__with__link3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  width: 25%;
+  border-radius: 3px;
+}
+
+.login__with__link1 {
+  background-color: var(--facebook);
+}
+
+.login__with__link2 {
+  background-color: var(--white);
+  border: 2px solid var(--gray-ef);
+}
+
+.login__with__link3 {
+  background-color: var(--black);
+}
+
+.login__with__link1:hover,
+.login__with__link2:hover,
+.login__with__link3:hover {
+  transform: scale(1.05, 1.05);
+  transition: all 0.5s ease;
+}
+
+.end__login ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.end__login a {
+  color: var(--black);
+  font-weight: 500;
+  border-bottom: 1px solid var(--black);
+}
+
+.end__login a:hover {
+  color: var(--gray-ef);
+  text-shadow: 1px 0px 1px var(--black);
+  transition: all 0.5s ease;
+}
