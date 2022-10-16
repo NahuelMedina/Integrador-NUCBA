@@ -132,6 +132,12 @@
     flex-direction: column-reverse;
   }
 
+  .contacto__info__div1,
+  .contacto__info__div2,
+  .contacto__info__div3 {
+    width: 200px;
+  }
+
   .contacto__info2 iframe {
     width: 300px;
     height: 300px;
@@ -252,7 +258,7 @@
   .contacto__info__div1,
   .contacto__info__div2,
   .contacto__info__div3 {
-    width: 100%;
+    width: 80%;
   }
 
   /* REGISTER */

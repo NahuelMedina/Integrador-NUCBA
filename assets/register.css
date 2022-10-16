@@ -23,6 +23,7 @@
   background-size: cover;
   box-shadow: 1px 1px 10px var(--black);
   border-radius: 10px;
+  animation: appear 0.5s ease-in;
 }
 
 .register__container__div span {

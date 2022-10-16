@@ -187,6 +187,7 @@ main {
   margin-bottom: 40px;
   text-align: center;
   width: 80%;
+  animation: appear 0.5s ease-in;
 }
 
 .hero__button {
@@ -202,10 +203,11 @@ main {
   position: absolute;
   top: 85%;
   box-shadow: 1px 1px 1px var(--white);
+  animation: appear 0.8s ease-in;
 }
 
 .hero__button:hover {
-  background-color: var(--pink);
+  background-color: var(--white);
   color: var(--black);
   box-shadow: none;
   transform: scale(1.03, 1.03);
